@@ -22,10 +22,10 @@ class Program
      System.Console.WriteLine("O VALOR DO TEMPO DE VIAGEM");
      double.TryParse(Console.ReadLine(), out TV);
 
-     System.Console.WriteLine("O VALOR DA VELOCIDADE DO VEICULO");
+     System.Console.WriteLine("O VALOR DA CONDIÇÃO CLIMATICA");
      double.TryParse(Console.ReadLine(), out CC);
 
-     System.Console.WriteLine("O VALOR DA VELOCIDADE DO VEICULO");
+     System.Console.WriteLine("O VALOR DO ESTADO DO VEICULO");
      double.TryParse(Console.ReadLine(), out EV);
 
      final = ((VV*TV)*CC)*EV;
